@@ -55,6 +55,7 @@ body {
 	flex-flow: row wrap;
     justify-content:center;
     .column {
+        min-height:400px;
         position:relative;
         display:flex;
         flex-direction: column;
@@ -107,6 +108,7 @@ body {
         text-align:center;
     }
     .column-card-list {
+        min-height:200px;
         list-style-type: none;
         background-color:rgba(110,239,200,0.4);
         border-radius:10px;
@@ -140,6 +142,7 @@ body {
                 }
             }
             >p{
+                padding:10px;
                 width:70%;
             }
         }
